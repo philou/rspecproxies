@@ -1,5 +1,4 @@
-require "rspecproxies/version"
+# -*- encoding: utf-8 -*-
 
-module RSpecProxies
-  # Your code goes here...
-end
+require "rspecproxies/version"
+require "rspecproxies/proxies"
