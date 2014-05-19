@@ -1,6 +1,6 @@
 # Rspecproxies
 
-TODO: Write a gem description
+Special RSpec extensions to simplify mocking by providing proxies
 
 ## Installation
 
