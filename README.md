@@ -35,7 +35,7 @@ it 'caches users' do
   controller.login('joe', 'secret')
   controller.login('joe', 'secret')
 
-  expect(users).to have_exactly(2).items
+  expect(users).to have_exactly(1).items
 end
 ```
 
@@ -63,7 +63,7 @@ it 'retries on error' do
 
    resources = Resource.get_at_least(10)
 
-   expect(resources).to have_exactly(9).items
+   expect(resources).to have_exactly(10).items
 end
 ```
 
