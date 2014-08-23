@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/philou/rspecproxies.svg?branch=master)](https://travis-ci.org/philou/rspecproxies) [![Test Coverage](https://codeclimate.com/github/philou/rspecproxies/badges/coverage.svg)](https://codeclimate.com/github/philou/rspecproxies) [![Code Climate](https://codeclimate.com/github/philou/rspecproxies/badges/gpa.svg)](https://codeclimate.com/github/philou/rspecproxies)
+
 # RSpecProxies
 
 Special RSpec extensions to simplify mocking by providing proxies.
@@ -47,7 +49,7 @@ it 'loads the actual user' do
 
   controller.login('joe', 'secret')
 
-  expect(response).to redirect_to(@user.homepage)
+  expect(response).to include(@user.login_count)
 end
 ```
 
