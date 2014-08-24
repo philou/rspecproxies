@@ -52,6 +52,7 @@ module RSpecProxies
 
     it 'hooks on return from a method' do
       user = nil
+
       User.on_result_from(:load) {|u| user = u}
 
       @controller.render('Joe')

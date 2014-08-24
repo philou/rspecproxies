@@ -2,12 +2,14 @@
 
 class Object
 
+  include RSpec::Mocks::ExampleMethods
+
   # Will call the given block with it's result every time the method
   # returns
   def on_result_from(method_name)
     stock_response = self.original_response(method_name)
 
-    self.stub(method_name) do |*args, &block|
+    allow(self).to receive(method_name) do |*args, &block|
       result = stock_response.call(*args, &block)
       yield result
       result
@@ -34,7 +36,7 @@ class Object
   def on_call_to(method_name)
     stock_response = self.original_response(method_name)
 
-    self.stub(method_name) do |*args, &block|
+    allow(self).to receive(method_name) do |*args, &block|
       yield *args
       stock_response.call(*args, &block)
     end
@@ -46,7 +48,7 @@ class Object
   # Allows to set up stub chains quickly and safely.
   def proxy_chain(*selectors, &block)
     if selectors.count == 1
-      final_stub = self.stub(selectors.first)
+      final_stub = allow(self).to receive(selectors.first)
       block.call(final_stub) unless block.nil?
     else
       self.on_result_from(selectors.first) do |result|
