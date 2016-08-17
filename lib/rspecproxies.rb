@@ -2,3 +2,4 @@
 
 require "rspecproxies/version"
 require "rspecproxies/proxies"
+require "rspecproxies/proxy_chains"
