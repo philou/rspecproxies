@@ -4,5 +4,9 @@
 ** DONE new syntax (use mock-experiments)
 ** DONE how to do with docker*
 ** DONE update the links
+* TODO Create a github page
+** DONE copy the readme into a page in my blog
+** DONE move open source projects pages from navigation to an aside
+** TODO check the links
 * TODO release and bump a new version
 * TODO add code snipets from mock-experiments to the google pres

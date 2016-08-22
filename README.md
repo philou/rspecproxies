@@ -2,7 +2,7 @@
 
 # RSpecProxies
 
-Special [RSpec](http://rspec.info) extensions to simplify mocking by providing proxies.
+Simplify [RSpec](http://rspec.info) mocking with test proxies !
 
 ## Why ?
 
