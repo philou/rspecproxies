@@ -1,5 +1,5 @@
-# -*- encoding: utf-8 -*-
+xs# -*- encoding: utf-8 -*-
 
 module RSpecProxies
-  VERSION = "0.1.0"
+  VERSION = "1.0.0"
 end

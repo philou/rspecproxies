@@ -1,0 +1,8 @@
+* DONE update the code
+* DONE increase the version to 1.0.0
+* DONE update the Readme
+** DONE new syntax (use mock-experiments)
+** DONE how to do with docker*
+** DONE update the links
+* TODO release and bump a new version
+* TODO add code snipets from mock-experiments to the google pres
