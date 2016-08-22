@@ -6,7 +6,7 @@ Simplify [RSpec](http://rspec.info) mocking with test proxies !
 
 ## Why ?
 
-As you might know after the [Is TDD Dead ?](http://martinfowler.com/articles/is-tdd-dead/) debate, [Mockists are dead, long live to classicists](https://www.thoughtworks.com/insights/blog/mockists-are-dead-long-live-classisists). Heavy mocking is getting out of fashion because it makes tests unreliable and difficult to maintain.
+As you might know after the [Is TDD Dead ?](http://martinfowler.com/articles/is-tdd-dead/) debate, [Mockists are dead, long live to classicists](https://www.thoughtworks.com/insights/blog/mockists-are-dead-long-live-classicists). Heavy mocking is getting out of fashion because it makes tests unreliable and difficult to maintain.
 
 Test proxies mix the best of both worlds, they behave like the real objects but also provide hooks to perform assertions or to inject test code. RSpec now features minimal supports for proxies with partial mocks, spies and the ```and_call_original``` and ```and_wrap_original``` expectations. RSpecProxies goes one step further with more specific expectations. Using RSpecProxies should help you to use as little mocking as possible.
 

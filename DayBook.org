@@ -9,4 +9,6 @@
 ** DONE move open source projects pages from navigation to an aside
 ** TODO check the links
 * TODO release and bump a new version
-* TODO add code snipets from mock-experiments to the google pres
+** DONE Release 1.0.0
+** TODO Bump the version
+** TODO check informations on rubygems.org
