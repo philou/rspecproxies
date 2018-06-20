@@ -1,8 +1,15 @@
+env:
+  global:
+    - CC_TEST_REPORTER_ID=5277591d84f5c6cc34ed2c38e410185c2ba6018d1de1461de19c13ab3dfd2cfa
 language: ruby
 rvm:
   - 2.3.1
   - 2.2.5
-script: bundle exec rake
-addons:
-  code_climate:
-    repo_token: 5277591d84f5c6cc34ed2c38e410185c2ba6018d1de1461de19c13ab3dfd2cfa
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
+script:
+  - bundle exec rspec
+after_script:
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT

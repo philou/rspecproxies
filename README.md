@@ -144,3 +144,7 @@ bundle install
 ```
 
 and you should be in a brand new container, ready to hack.
+
+## Authors
+
+* [Philippe Bourgau](http://philippe.bourgau.net)
