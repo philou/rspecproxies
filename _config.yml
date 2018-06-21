@@ -1,1 +1,5 @@
+title: RspectProxies
+description: Rspecproxies is a ruby gem, which extends rspec mocks with test proxies
+show_downloads: true
+google_analytics:
 theme: jekyll-theme-tactile
