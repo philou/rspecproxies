@@ -1,5 +1,3 @@
-<a href="https://github.com/philou/rspecproxies"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
-
 [![Build Status](https://travis-ci.org/philou/rspecproxies.svg?branch=master)](https://travis-ci.org/philou/rspecproxies) [![Test Coverage](https://codeclimate.com/github/philou/rspecproxies/badges/coverage.svg)](https://codeclimate.com/github/philou/rspecproxies) [![Code Climate](https://codeclimate.com/github/philou/rspecproxies/badges/gpa.svg)](https://codeclimate.com/github/philou/rspecproxies)
 
 # RSpecProxies
@@ -150,3 +148,6 @@ and you should be in a brand new container, ready to hack.
 ## Authors
 
 * [Philippe Bourgau](http://philippe.bourgau.net)
+
+<a href="https://github.com/philou/rspecproxies"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+
