@@ -2,7 +2,7 @@
 
 # RSpecProxies
 
-Simplify [RSpec](http://rspec.info) mocking with test proxies !
+A ruby gem which extends [RSpec](http://rspec.info) mocks with test proxies.
 
 ## Why ?
 
